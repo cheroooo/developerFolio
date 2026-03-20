@@ -89,7 +89,7 @@ https://fontawesome.com/icons?d=gallery */
   
 {
       skillName: "Microsoft",
-      fontAwesomeClassname: "fa-solid fa-m"
+      fontAwesomeClassname: fa-brands fa-microsoft"
     },
     
     
