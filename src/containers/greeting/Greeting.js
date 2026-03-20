@@ -34,7 +34,9 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                An experience HR Specialist oversees:
+                <br />
+                Operations, Reruitment, Early career development, Performance,Engagement.
               </p>
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
