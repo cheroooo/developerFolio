@@ -22,9 +22,7 @@ const illustration = {
 const greeting = {
   username: "Lixin Zhu",
   title: "Hi all, I'm Lixin",
-  subTitle: emoji(
-    "An experience HR Specialist oversees Operations/Reruitment/Early career development/Performance/Engagement."
-  ),
+  
   resumeLink:
     "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -59,28 +57,28 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Workday",
+      fontAwesomeClassname: "fa-thin fa-w"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "ADP",
+      fontAwesomeClassname: "fa-thin fa-a"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Google",
+      fontAwesomeClassname: "fa-thin fa-g"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Microsoft",
+      fontAwesomeClassname: "fa-thin fa-m"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Communication",
+      fontAwesomeClassname: "fa-graphite fa-thin fa-comments"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Data Analysis",
+      fontAwesomeClassname: "fa-graphite fa-thin fa-chart-simple"
     },
     {
       skillName: "swift",
