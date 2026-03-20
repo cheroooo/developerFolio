@@ -56,17 +56,23 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "Workday",
-      fontAwesomeClassname: "fa-solid fa-w"
-    },
-
+   
 
  {
       skillName: "Communication",
       fontAwesomeClassname: "fa-solid fa-comments"
     },
-
+    
+ {
+      skillName: "Workday",
+      fontAwesomeClassname: "fa-solid fa-w"
+    },
+    
+  {
+      skillName: "Data Analysis",
+      fontAwesomeClassname: "fa-solid fa-chart-column"
+    },
+    
 {
       skillName: "Google Suite",
       fontAwesomeClassname: "fa-solid fa-g"
@@ -78,25 +84,19 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fa-solid fa-gears"
     },
 
-
-
-  {
-      skillName: "Data Analysis",
-      fontAwesomeClassname: "fa-solid fa-chart-column"
+    {
+      skillName: "ADP",
+      fontAwesomeClassname: "fa-solid fa-a"
     },
+    
 
-
-  
 {
       skillName: "Microsoft",
       fontAwesomeClassname: "fa-brands fa-microsoft"
     },
     
     
-    {
-      skillName: "ADP",
-      fontAwesomeClassname: "fa-solid fa-a"
-    },
+    
     
     
    
