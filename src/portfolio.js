@@ -60,36 +60,47 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Workday",
       fontAwesomeClassname: "fa-solid fa-w"
     },
+
+
+ {
+      skillName: "Communication",
+      fontAwesomeClassname: "fa-solid fa-comments"
+    },
+
+{
+      skillName: "Google Suite",
+      fontAwesomeClassname: "fa-solid fa-g"
+    },
+
+    
         {
       skillName: "Automation",
       fontAwesomeClassname: "fa-solid fa-gears"
     },
 
-    
-    {
-      skillName: "Google",
-      fontAwesomeClassname: "fa-solid fa-g"
+
+
+  {
+      skillName: "Data Analysis",
+      fontAwesomeClassname: "fa-solid fa-chart-column"
     },
 
+
+  
+{
+      skillName: "Microsoft",
+      fontAwesomeClassname: "fa-solid fa-m"
+    },
+    
     
     {
       skillName: "ADP",
       fontAwesomeClassname: "fa-solid fa-a"
     },
     
-    {
-      skillName: "Microsoft",
-      fontAwesomeClassname: "fa-solid fa-m"
-    },
-    {
-      skillName: "Communication",
-      fontAwesomeClassname: "fa-solid fa-comments"
-    },
-    {
-      skillName: "Data Analysis",
-      fontAwesomeClassname: "fa-solid fa-chart-column"
-    },
-
+    
+   
+  
     
   ],
   display: true // Set false to hide this section, defaults to true
