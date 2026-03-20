@@ -60,14 +60,23 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Workday",
       fontAwesomeClassname: "fa-solid fa-w"
     },
-    {
-      skillName: "ADP",
-      fontAwesomeClassname: "fa-solid fa-a"
+        {
+      skillName: "Automation",
+      fontAwesomeClassname: "fa-solid fa-gears"
     },
+
+    
     {
       skillName: "Google",
       fontAwesomeClassname: "fa-solid fa-g"
     },
+
+    
+    {
+      skillName: "ADP",
+      fontAwesomeClassname: "fa-solid fa-a"
+    },
+    
     {
       skillName: "Microsoft",
       fontAwesomeClassname: "fa-solid fa-m"
@@ -80,10 +89,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Data Analysis",
       fontAwesomeClassname: "fa-solid fa-chart-column"
     },
-    {
-      skillName: "Automation",
-      fontAwesomeClassname: "fa-solid fa-gears"
-    },
+
     
   ],
   display: true // Set false to hide this section, defaults to true
