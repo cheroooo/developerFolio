@@ -81,33 +81,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fa-graphite fa-thin fa-chart-simple"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Automation",
+      fontAwesomeClassname: "fa-graphite fa-thin fa-gear"
     },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
