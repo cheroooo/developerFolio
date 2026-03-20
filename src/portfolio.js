@@ -58,31 +58,31 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Workday",
-      fontAwesomeClassname: "fa-thin fa-w"
+      fontAwesomeClassname: "fa-solid fa-w"
     },
     {
       skillName: "ADP",
-      fontAwesomeClassname: "fa-thin fa-a"
+      fontAwesomeClassname: "fa-solid fa-a"
     },
     {
       skillName: "Google",
-      fontAwesomeClassname: "fa-thin fa-g"
+      fontAwesomeClassname: "fa-solid fa-g"
     },
     {
       skillName: "Microsoft",
-      fontAwesomeClassname: "fa-thin fa-m"
+      fontAwesomeClassname: "fa-solid fa-m"
     },
     {
       skillName: "Communication",
-      fontAwesomeClassname: "fa-graphite fa-thin fa-comments"
+      fontAwesomeClassname: "fa-solid fa-comments"
     },
     {
       skillName: "Data Analysis",
-      fontAwesomeClassname: "fa-graphite fa-thin fa-chart-simple"
+      fontAwesomeClassname: "fa-solid fa-chart-column"
     },
     {
       skillName: "Automation",
-      fontAwesomeClassname: "fa-graphite fa-thin fa-gear"
+      fontAwesomeClassname: "fa-solid fa-gears"
     },
     
   ],
