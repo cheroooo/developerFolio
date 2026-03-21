@@ -1,6 +1,7 @@
 import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
+import { Link } from "react-router-dom";
 
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
@@ -78,6 +79,24 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
+        {cardInfo.company === "Skidmore, Owings & Merrill" && (
+          <div className="experience-card-footer-links">
+            <Link 
+              to="/program-management"
+              className={isDark ? "subTitle dark-mode-text" : "subTitle"}
+              style={{ display: "inline-block", marginRight: "10px", marginTop: "10px", fontWeight: "bold", color: "#55198b" }}
+            >
+              Program Management ➔
+            </Link>
+            <Link 
+              to="/hr-operations"
+              className={isDark ? "subTitle dark-mode-text" : "subTitle"}
+              style={{ display: "inline-block", marginRight: "10px", marginTop: "10px", fontWeight: "bold", color: "#55198b" }}
+            >
+              HR Operations ➔
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );
