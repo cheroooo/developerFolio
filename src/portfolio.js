@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Lixin Zhu",
-  title: "Hi all, I'm Lixin",
+  title: "Hi there, I am Lixin",
   
   resumeLink:
     "", // Set to empty to hide the button
@@ -152,8 +152,8 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "HR Opertaions Specialist",
-      company: "SOM",
+      role: "HR Operations Specialist",
+      company: "Skidmore, Owings & Merrill",
       companylogo: require("./assets/images/SOMLogo"),
       date: "April 2022 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -164,9 +164,9 @@ const workExperiences = {
     },
     {
       role: "HR Specialist",
-      company: "NAC",
+      company: "New Alternatives For Children",
       companylogo: require("./assets/images/NACLogo"),
-      date: "May 2017 – May 2018",
+      date: "September 2021 – April 2022",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
    
