@@ -28,6 +28,15 @@
   transition: 0.2s ease-in;
 }
 
+h1 .icon-button i {
+  border-radius: 15px;
+  font-size: 2.6rem;
+  margin: 10px;
+  position: relative;
+  padding: 7px;
+  bottom: 7px;
+}
+
 .facebook i {
   background-color: $faceBook;
 }
