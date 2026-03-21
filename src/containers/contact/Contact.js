@@ -15,7 +15,7 @@ export default function Contact() {
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
-            <h1 className="heading contact-title">{contactInfo.title}
+            <h1 className="heading subTitle">{contactInfo.title}
     <a
           href={socialMediaLinks.linkedin}
           className="icon-button linkedin"
