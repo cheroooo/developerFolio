@@ -34,9 +34,9 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                An experience HR Specialist oversees:
+                An experienced HR Specialist oversees:
                 <br />
-                Operations, Reruitment, Early career development, Performance, & Engagement.
+                Operations, Reruitment, Early career development, Performance, & Employe engagement.
               </p>
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
