@@ -115,11 +115,10 @@ const educationInfo = {
       schoolName: "CUNY Baruch College",
       logo: require("./assets/images/baruchcollegelogo.webp"),
       subHeader: "BBA, Operations Management",
-      Graduation: "June 2021",
+      Graduation: "Graduated in June 2021",
       desc: "",
       descBullets: [
-        "",
-        ""
+        
       ]
     },
    
@@ -155,8 +154,8 @@ const workExperiences = {
     {
       role: "HR Opertaions Specialist",
       company: "SOM",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      companylogo: require("./assets/images/SOMLogo"),
+      date: "April 2022 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -164,19 +163,13 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      role: "HR Specialist",
+      company: "NAC",
+      companylogo: require("./assets/images/NACLogo"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+   
   ]
 };
 
