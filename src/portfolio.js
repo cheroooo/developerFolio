@@ -113,7 +113,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "CUNY Baruch College",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/baruchcollegelogo.webp"),
       subHeader: "BBA, Operations Management",
       Graduation: "June 2021",
       desc: "",
