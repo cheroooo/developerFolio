@@ -44,7 +44,7 @@ const skillsSection = {
   subTitle: "",
   skills: [
     emoji(
-      "- Manage full employee life cycle, from onboarding to off boarding"
+      "- Manage full employee life cycle, from onboarding to offboarding"
     ),
     emoji("- Engineer Internship and Externship programs, design an immersive program experience to sustain future talents"),
     emoji(
