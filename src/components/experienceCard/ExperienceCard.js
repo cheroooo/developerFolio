@@ -86,14 +86,15 @@ export default function ExperienceCard({cardInfo, isDark}) {
               className={isDark ? "subTitle dark-mode-text" : "subTitle"}
               style={{ display: "inline-block", marginRight: "10px", marginTop: "10px", fontWeight: "bold", color: "#55198b" }}
             >
-              Program Management ➔
+              ➔ Program Management
             </Link>
+            <br />
             <Link 
               to="/hr-operations"
               className={isDark ? "subTitle dark-mode-text" : "subTitle"}
               style={{ display: "inline-block", marginRight: "10px", marginTop: "10px", fontWeight: "bold", color: "#55198b" }}
             >
-              HR Operations ➔
+              ➔ HR Operations
             </Link>
           </div>
         )}
