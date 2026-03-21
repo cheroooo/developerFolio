@@ -341,7 +341,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "",
   number: "",
