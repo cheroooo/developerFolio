@@ -81,21 +81,32 @@ export default function ExperienceCard({cardInfo, isDark}) {
         </ul>
         {cardInfo.company === "Skidmore, Owings & Merrill" && (
           <div className="experience-card-footer-links">
-            <Link 
-              to="/program-management"
-              className={isDark ? "subTitle dark-mode-text" : "subTitle"}
-              style={{ display: "inline-block", marginRight: "10px", marginTop: "10px", fontWeight: "bold", color: "#55198b" }}
-            >
-              ➔ Program Management
-            </Link>
-            <br />
+           
+          
             <Link 
               to="/hr-operations"
               className={isDark ? "subTitle dark-mode-text" : "subTitle"}
               style={{ display: "inline-block", marginRight: "10px", marginTop: "10px", fontWeight: "bold", color: "#55198b" }}
             >
+
+
               ➔ HR Operations
             </Link>
+                
+                      <br />
+
+          <Link 
+              to="/program-management"
+              className={isDark ? "subTitle dark-mode-text" : "subTitle"}
+              style={{ display: "inline-block", marginRight: "10px", marginTop: "10px", fontWeight: "bold", color: "#55198b" }}
+            >
+
+
+
+              ➔ Program Management
+            </Link>
+           
+              
           </div>
         )}
       </div>
