@@ -39,7 +39,11 @@ export default function ExperienceCard({cardInfo, isDark}) {
           <h5 className="experience-text-company">{cardInfo.company}</h5>
         </div>
 
-        <a href={cardInfo.website}>
+        <a
+          href={cardInfo.website}
+          target="_blank" 
+          rel="noreferrer"
+        >
           <img
             crossOrigin={"anonymous"}
             ref={imgRef}
