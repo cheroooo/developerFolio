@@ -46,14 +46,14 @@ function Header() {
               <a href="/#skills">Work Scope</a>
             </li>
           )}
-            <li>
-              <a href="/#education">Education</a>
-            </li>
           {viewExperience && (
             <li>
               <a href="/#experience">Work Experiences</a>
             </li>
           )}
+            <li>
+              <a href="/#education">Education</a>
+            </li>
           {viewOpenSource && (
             <li>
               <a href="/#opensource">Open Source</a>
