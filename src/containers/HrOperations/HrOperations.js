@@ -9,7 +9,7 @@ export default function HrOperations() {
   const operations = [
     {
       title: "Recruitment",
-      desc: "The experience for The recruitment process is a preview of what it’s like to work at the company. Personalizing the interaction set a positive impression for the candidate."
+      desc: "The recruitment process is a preview of what it’s like to work at the company. Personalizing the interaction set a positive impression for the candidate."
     },
     {
       title: "Onboarding",
