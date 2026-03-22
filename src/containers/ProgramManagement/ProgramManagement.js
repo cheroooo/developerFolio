@@ -13,7 +13,15 @@ export default function ProgramManagement() {
               Program Management
             </h1>
             <p className={isDark ? "dark-mode-text" : "subTitle"}>
-              From organizing career fairs and engineering internship/externship programs to managing fulltime early career pipelines, my work supports students and recent grads in exploring career paths within the industry.
+              From organizing career fairs and engineering internship/externship programs to managing full time early career pipelines, my work supports students and recent grads in exploring career paths within the industry.
+                <br />
+                Career Fair: 
+              <br />
+                Externship Program:
+              <br /> 
+                Internship Program: Designed an immersive, hands-on internship program by partnering with the planning committee to curate weekly learning sessions focused on industry knowledge and team building. The program satisfaction rate is maintained at 94% every year. 
+              <br />
+                Year One Program: I oversee an emerging talent pipeline across 5+ disciplines. My core focus is ensuring diversity by strategically distributing candidates across backgrounds, while owning the end to end recruitment process (interview scheduling, offer extensions, and onboarding). 9 out of 10 interns reapply to the full time opportunity after graduation. 
             </p>
           </div>
         </Fade>
