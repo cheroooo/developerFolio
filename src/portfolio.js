@@ -156,6 +156,7 @@ const workExperiences = {
       company: "Skidmore, Owings & Merrill",
       companylogo: require("./assets/images/SOMLogo"),
       date: "April 2022 – Present",
+      website: "https://www.som.com/",
       desc: "HR professional with 4+ years of experience specializing in end to end HR operations and early career program management.",
       descBullets: [
        
@@ -166,6 +167,7 @@ const workExperiences = {
       company: "New Alternatives For Children",
       companylogo: require("./assets/images/NACLogo"),
       date: "September 2021 – April 2022",
+      website: "https://nackidscan.org/",
       desc: "",
       descBullets: ["Managed employee records, ensuring the accuracy of compensation, benefits, and onboarding documents.",
                     "Strong attention to detail, maintaining regulatory compliance data to meet local regulatory mandates."]
