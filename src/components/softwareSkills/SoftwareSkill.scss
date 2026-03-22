@@ -16,11 +16,11 @@
 }
 
 .software-skill-inline > i {
-  color: #977390;
+  color: $subTitle;
 }
 
 .software-skill-inline > i:hover {
-  color: $skillsColor;
+  color: #977390;
 }
 .software-skill-inline > p {
   color: $subTitle;
