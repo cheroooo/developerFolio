@@ -11,7 +11,6 @@ import Talks from "../talks/Talks";
 import Podcast from "../podcast/Podcast";
 import Education from "../education/Education";
 import Twitter from "../twitter-embed/twitter";
-import Profile from "../profile/Profile";
 
 export default function Home() {
   return (
@@ -28,7 +27,6 @@ export default function Home() {
       <Talks />
       <Twitter />
       <Podcast />
-      <Profile />
     </>
   );
 }
