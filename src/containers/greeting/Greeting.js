@@ -23,9 +23,10 @@ export default function Greeting() {
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
+                <span className="wave-emoji">{emoji("👋")}</span>
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <SocialMedia />
               </h1>
               <p
                 className={
@@ -39,7 +40,6 @@ export default function Greeting() {
                 Operations, Reruitment, Early career development, Performance, & Employee engagement.
               </p>
               <div id="resume" className="empty-div"></div>
-              <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
