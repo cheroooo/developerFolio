@@ -166,7 +166,9 @@ const workExperiences = {
       company: "New Alternatives For Children",
       companylogo: require("./assets/images/NACLogo"),
       date: "September 2021 – April 2022",
-      desc: "Managed employee records, ensuring the accuracy of compensation, benefits, and onboarding documents. Strong attention to detail, maintaining regulatory compliance data to meet local regulatory mandates."
+      desc: "",
+      descBullets: ["Managed employee records, ensuring the accuracy of compensation, benefits, and onboarding documents.",
+                    "Strong attention to detail, maintaining regulatory compliance data to meet local regulatory mandates."]
     },
    
   ]
