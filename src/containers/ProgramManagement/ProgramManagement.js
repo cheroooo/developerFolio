@@ -21,7 +21,7 @@ export default function ProgramManagement() {
     },
     {
       title: "Year One Program",
-      desc: "Oversee emerging talent pipelines across 5+ disciplines. My core focus is ensuring diversity by strategically distributing candidates across backgrounds, while owning the recruitment process (interview scheduling, offer extensions, and onboarding). 9 out of 10 interns reapply to the full time opportunity after graduation."
+      desc: "Oversee the recruitment process (interview scheduling, offer extensions, and onboarding) for 5+ disciplines, ensuring diverse candidates are equally reviewed. 9 out of 10 interns reapply to the full time opportunity after graduation.."
     }
   ];
 
