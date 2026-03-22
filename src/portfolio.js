@@ -158,8 +158,8 @@ const workExperiences = {
       date: "April 2022 – Present",
       desc: "HR professional with 4+ years of experience specializing in end to end HR operations and early career program management. Supporting cross functional leaders and teams, curating a high touch workplace experiences, and optimizing daily workflows to drive continuous improvement.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "",
+        ""
       ]
     },
     {
