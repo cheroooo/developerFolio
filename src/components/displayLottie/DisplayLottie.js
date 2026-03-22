@@ -16,7 +16,7 @@ export default class DisplayLottie extends Component {
         <Lottie
           animationData={defaultOptions.animationData}
           loop={defaultOptions.loop}
-          style={{ height: "85%", width: "85%", margin: "-4% 5%" }}
+          style={this.props.style}
         />
       </Suspense>
     );
