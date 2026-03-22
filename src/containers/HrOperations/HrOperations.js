@@ -13,7 +13,7 @@ export default function HrOperations() {
               HR Operations
             </h1>
             <p className={isDark ? "dark-mode-text" : "subTitle"}>
-              This is the HR Operations subsidiary page. It provides details on human resources strategy and administration.
+              Supporting cross functional leaders and teams, curating a personal touch workplace experience, and optimizing daily workflows to drive continuous improvement.
             </p>
           </div>
         </Fade>
