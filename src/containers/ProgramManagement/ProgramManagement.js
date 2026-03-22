@@ -13,7 +13,7 @@ export default function ProgramManagement() {
               Program Management
             </h1>
             <p className={isDark ? "dark-mode-text" : "subTitle"}>
-              This is the Program Management subsidiary page. Detailed insights into our Program Management strategies and execution go here.
+              From organizing career fairs and engineering internship/externship programs to managing fulltime early career pipelines, my work supports students and recent grads in exploring career paths within the industry.
             </p>
           </div>
         </Fade>
