@@ -40,7 +40,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "Work Scope",
   subTitle: "",
   skills: [
     emoji(
