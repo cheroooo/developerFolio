@@ -31,7 +31,9 @@ export default function ProgramManagement() {
         <Fade bottom duration={1000} distance="40px">
           <div className="program-management-heading-div">
             <h1 className={isDark ? "dark-mode-title" : "heading-title"}>
-              Program Management
+              <a href="https://www.som.com/culture/careers/student-opps/" target="_blank" rel="noreferrer">
+                Program Management
+              </a>
             </h1>
             <p className={isDark ? "dark-mode-text" : "subTitle"}>
               From organizing career fairs and engineering internship/externship programs to managing full time early career pipelines, my work supports students and recent grads in exploring career paths within the industry.
