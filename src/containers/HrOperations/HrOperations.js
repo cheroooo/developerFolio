@@ -9,7 +9,7 @@ export default function HrOperations() {
   const operations = [
     {
       title: "Recruitment",
-      desc: "The recruitment process is a preview of what it’s like to work at the company. Personalize the interaction, setting a positive impression for the candidate."
+      desc: "Act as a liasion between candidates and hiring teams to connect the right minds with the right needs."
     },
     {
       title: "Onboarding",
@@ -29,7 +29,7 @@ export default function HrOperations() {
     },
     {
       title: "Offboarding",
-      desc: "Understand the reasons behind employee departures and ensure a smooth transition."
+      desc: "Discuss workplace experiences with departing employees to understand the reasons for attrition."
     }
   ];
 
