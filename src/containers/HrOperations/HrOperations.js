@@ -17,7 +17,7 @@ export default function HrOperations() {
     },
     {
       title: "Performance Review",
-      desc: "Faciliate a reflection of an individual's accomplishments and skills, helping them succeed and grow within the organization in the long term."
+      desc: "Faciliate reflections of individuals' accomplishments and skills, helping them succeed and grow within the organization in the long term."
     },
     {
       title: "Employee Engagement",
