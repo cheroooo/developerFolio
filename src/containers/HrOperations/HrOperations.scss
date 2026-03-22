@@ -1,0 +1,73 @@
+@import "../../globalColor";
+
+.hr-ops-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .hr-ops-cards-div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.hr-ops-card {
+  position: relative;
+  background-color: $lightBackground2;
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  border-radius: 10px;
+  border: 1px solid $lightBorder1;
+  padding: 1.8rem;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.hr-ops-card:hover {
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+  transform: translateY(-5px);
+}
+
+.hr-ops-card-dark {
+  position: relative;
+  background-color: $darkBackground;
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  border-radius: 10px;
+  border: 1px solid $lightBorder1;
+  padding: 1.8rem;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.hr-ops-card-dark:hover {
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+  transform: translateY(-5px);
+}
+
+.hr-ops-card-title {
+  color: $titleColor;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 0.8rem;
+  text-align: left;
+}
+
+.hr-ops-card-text {
+  color: $textColor;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  text-align: left;
+}
+
+.dark-mode-title {
+  color: $textColorDark !important;
+}
+
+.dark-mode-text {
+  color: $textColorDark !important;
+}
