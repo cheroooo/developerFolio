@@ -9,15 +9,15 @@ export default function ProgramManagement() {
   const programs = [
     {
       title: "Career Fairs",
-      desc: "Encourage internal teams to represent the firm at university career fairs, forging connections with students to build a robust early career talent pipeline."
+      desc: "Encourage internal teams to represent the firm at university career fairs, and build connections with students to build a robust early career talent pipeline."
     },
     {
       title: "Externship Program",
-      desc: "Manage the end to end externship program process. This ranges from allocating headcounts, collaborating with the marketing team, and facilitating the candidate review process."
+      desc: "Manage the end to end externship program process. This includes allocating headcount, collaborating with the marketing team, and facilitating the candidate review process."
     },
     {
       title: "Internship Program",
-      desc: "Design an immersive, hands-on internship program by partnering with the planning committee to curate weekly learning sessions focused on industry knowledge and team building in 10 weeks. The program satisfaction rate is maintained at 94% every year."
+      desc: "Design an immersive, hands-on 10-week internship program by partnering with the planning committee to curate weekly learning sessions focused on industry knowledge and team building. The program satisfaction rate is maintained at 94% every year."
     },
     {
       title: "Year One Program",
