@@ -14,6 +14,10 @@ export default function HrOperations() {
             </h1>
             <p className={isDark ? "dark-mode-text" : "subTitle"}>
               Supporting cross functional leaders and teams, curating a high touch workplace experience, and optimizing daily workflows to drive continuous improvement. 
+                <br />
+                <br />
+                <br />
+                <br />
 
 
                 Recruitment - The experience for The recruitment process is a preview of what it’s like to work at the company. Personalizing the interaction set a positive impression for the candidate.
@@ -28,8 +32,9 @@ export default function HrOperations() {
                 Employee Engagement - Encourage individuals to take ownership of their professional growth and recognition within the organization.
                 <br />
                 |
-                Data Analysis - Generate report 
-                
+                Data Analysis - Find patterns in information, analyze and visualize data to create compelling narrative.
+                <br />
+                |
                 Offboarding - Understand employee departures and ensure a smooth transition.
           
   
