@@ -52,6 +52,7 @@
   .skills-heading {
     font-size: 30px;
     text-align: center;
+    margin-bottom: 20px;
   }
   .greeting-text-p {
     font-size: 16px;
@@ -60,9 +61,11 @@
   .skills-main-div {
     flex-direction: column;
   }
+  .skills-main-div > * {
+    margin-bottom: 15px;
+  }
   .skills-text-div {
-    margin-left: 0px;
-    margin: 20px;
+    margin: 0 5%;
   }
   .skills-text {
     font-size: 16px;

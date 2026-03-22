@@ -29,3 +29,9 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+
+@media (max-width: 768px) {
+  .software-skill-inline {
+    margin-right: 10px;
+  }
+}
