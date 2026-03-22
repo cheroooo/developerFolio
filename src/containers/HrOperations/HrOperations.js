@@ -13,7 +13,7 @@ export default function HrOperations() {
     },
     {
       title: "Onboarding",
-      desc: "A clear plan, resources, and genuine support help new colleagues settle into their roles."
+      desc: "A clear plan, resources, and genuine support help new hires settle into their roles."
     },
     {
       title: "Performance Review",
