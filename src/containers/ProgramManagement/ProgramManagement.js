@@ -9,7 +9,7 @@ export default function ProgramManagement() {
   const programs = [
     {
       title: "Career Fairs",
-      desc: "Encourage internal teams to represent the firm at university career fairs, and build connections with students to build a robust early career talent pipeline."
+      desc: "Encourage internal teams to represent the firm at university career fairs and build connections with students."
     },
     {
       title: "Externship Program",
