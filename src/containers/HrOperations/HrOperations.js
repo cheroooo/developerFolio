@@ -9,15 +9,15 @@ export default function HrOperations() {
   const operations = [
     {
       title: "Recruitment",
-      desc: "The recruitment process is a preview of what it’s like to work at the company. Personalizing the interaction set a positive impression for the candidate."
+      desc: "The recruitment process is a preview of what it’s like to work at the company. Personalize the interaction, setting a positive impression for the candidate."
     },
     {
       title: "Onboarding",
-      desc: "A clear plan, resources, and genuine support help new hires settle into their roles."
+      desc: "Help new hires settle into their roles by providing a clear plan, resources, and genuine support."
     },
     {
       title: "Performance Review",
-      desc: "A reflection of an individual's accomplishments and skills, helping them succeed and grow within the organization in the long term."
+      desc: "Faciliate a reflection of an individual's accomplishments and skills, helping them succeed and grow within the organization in the long term."
     },
     {
       title: "Employee Engagement",
@@ -25,11 +25,11 @@ export default function HrOperations() {
     },
     {
       title: "Data Analysis",
-      desc: "Find patterns in information, analyze and visualize data to create compelling narrative."
+      desc: "Find patterns in information, analyze and visualize data to create compelling narratives."
     },
     {
       title: "Offboarding",
-      desc: "Understand employee departures and ensure a smooth transition."
+      desc: "Understand the reasons behind employee departures and ensure a smooth transition."
     }
   ];
 
