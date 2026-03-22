@@ -15,13 +15,13 @@ export default function ProgramManagement() {
             <p className={isDark ? "dark-mode-text" : "subTitle"}>
               From organizing career fairs and engineering internship/externship programs to managing full time early career pipelines, my work supports students and recent grads in exploring career paths within the industry.
                 <br />
-                Career Fair: 
+                Career Fairs: Encourage internal teams to represent the firm at university career fairs, forging connections with students to build a robust early career talent pipeline. 
               <br />
-                Externship Program:
+                Externship Program: Manage the end to end externship program process. This ranges from allocating headcounts, collaborating with the marketing team, and facilitating the candidate review process. 
               <br /> 
-                Internship Program: Designed an immersive, hands-on internship program by partnering with the planning committee to curate weekly learning sessions focused on industry knowledge and team building. The program satisfaction rate is maintained at 94% every year. 
+                Internship Program: Designe an immersive, hands-on internship program by partnering with the planning committee to curate weekly learning sessions focused on industry knowledge and team building in 10 weeks. The program satisfaction rate is maintained at 94% every year. 
               <br />
-                Year One Program: I oversee an emerging talent pipeline across 5+ disciplines. My core focus is ensuring diversity by strategically distributing candidates across backgrounds, while owning the end to end recruitment process (interview scheduling, offer extensions, and onboarding). 9 out of 10 interns reapply to the full time opportunity after graduation. 
+                Year One Program: OVersee emerging talent pipelineS across 5+ disciplines. My core focus is ensuring diversity by strategically distributing candidates across backgrounds, while owning the recruitment process (interview scheduling, offer extensions, and onboarding). 9 out of 10 interns reapply to the full time opportunity after graduation. 
             </p>
           </div>
         </Fade>
