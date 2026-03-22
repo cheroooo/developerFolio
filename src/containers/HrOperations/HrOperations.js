@@ -15,6 +15,7 @@ export default function HrOperations() {
             <p className={isDark ? "dark-mode-text" : "subTitle"}>
               Supporting cross functional leaders and teams, curating a high touch workplace experience, and optimizing daily workflows to drive continuous improvement. 
                 <br />
+                Below is the scope of work I oversee on a day-to-day basis:
                 <br />
                 <br />
                 <br />
