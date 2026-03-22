@@ -1,5 +1,10 @@
 @import "../../globalColor";
 
+.program-management-container h1 a {
+  color: black;
+  text-decoration: none;
+}
+
 .prog-mgmt-cards-div {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
