@@ -21,7 +21,7 @@ export default function ProgramManagement() {
     },
     {
       title: "Year One Program",
-      desc: "Oversee the recruitment process (interview scheduling, offer extensions, and onboarding) for 5+ disciplines, ensuring diverse candidates are equally reviewed. 9 out of 10 interns reapply to the full time opportunity after graduation.."
+      desc: "Oversee the recruitment process (interview scheduling, offer extensions, and onboarding) for 5+ disciplines, ensuring diverse candidates are equally reviewed. 9 out of 10 interns reapply to the full time opportunity after graduation."
     }
   ];
 
