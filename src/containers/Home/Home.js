@@ -18,8 +18,9 @@ export default function Home() {
       <Greeting />
       <Skills />
       <StackProgress />
+     <WorkExperience />
       <Education />
-      <WorkExperience />
+     
       <Projects />
       <StartupProject />
       <Achievement />
