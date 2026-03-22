@@ -157,10 +157,10 @@ const workExperiences = {
       companylogo: require("./assets/images/SOMLogo"),
       date: "April 2022 – Present",
       website: "https://www.som.com/",
-      desc: "HR professional with 4+ years of experience specializing in end to end HR operations and early career program management.",
-      descBullets: [
+      desc: "",
+      descBullets: ["HR professional with 4+ years of experience specializing in end to end HR operations and early career program management."]
        
-      ]
+      
     },
     {
       role: "HR Specialist",
