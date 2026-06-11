@@ -51,9 +51,27 @@
   line-height: 30px;
 }
 
-.greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+.greeting-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.headshot-img {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #55198b;
+  box-shadow: 0 15px 35px rgba(85, 25, 139, 0.25);
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  &:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 25px 45px rgba(85, 25, 139, 0.4);
+    border-color: #8c43ce;
+  }
 }
 
 .wave-emoji {
@@ -114,7 +132,13 @@
     display: block;
   }
   .greeting-image-div {
-    height: 256px;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .headshot-img {
+    width: 240px;
+    height: 240px;
+    border-width: 4px;
   }
 }
 

@@ -67,14 +67,12 @@ export default function HrOperations() {
             </Fade>
           ))}
         </div>
-        <Fade bottom duration={1000} distance="40px">
-          <div className="back-btn-container">
-            <Link to="/" className="back-btn">
-              <i className="fas fa-arrow-left" aria-hidden="true"></i> Back to
-              Home
-            </Link>
-          </div>
-        </Fade>
+        <div className="back-btn-container">
+          <Link to="/" className="back-btn">
+            <i className="fas fa-arrow-left" aria-hidden="true"></i> Back to
+            Home
+          </Link>
+        </div>
       </div>
     </div>
   );

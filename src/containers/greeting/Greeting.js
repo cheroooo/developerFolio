@@ -40,6 +40,13 @@ export default function Greeting() {
               </p>
             </div>
           </div>
+          <div className="greeting-image-div">
+            <img
+              src={require("../../assets/images/headshot.jpg")}
+              alt="Lixin Zhu Headshot"
+              className="headshot-img"
+            />
+          </div>
         </div>
       </div>
     </Fade>
