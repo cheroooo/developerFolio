@@ -15,16 +15,18 @@ export default function Contact() {
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
-            <h1 className="heading subTitle">{contactInfo.title}
-    <a
-          href={socialMediaLinks.linkedin}
-          className="icon-button linkedin"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-linkedin-in"></i>
-          <span></span>
-        </a></h1>
+            <h1 className="heading subTitle">
+              {contactInfo.title}
+              <a
+                href={socialMediaLinks.linkedin}
+                className="icon-button linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin-in"></i>
+                <span></span>
+              </a>
+            </h1>
             <p
               className={
                 isDark

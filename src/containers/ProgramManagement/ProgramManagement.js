@@ -1,10 +1,11 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
+import {Link} from "react-router-dom";
 import StyleContext from "../../contexts/StyleContext";
-import { Fade } from "react-reveal";
+import {Fade} from "react-reveal";
 import "./ProgramManagement.scss";
 
 export default function ProgramManagement() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
 
   const programs = [
     {
@@ -31,26 +32,53 @@ export default function ProgramManagement() {
         <Fade bottom duration={1000} distance="40px">
           <div className="program-management-heading-div">
             <h1 className={isDark ? "dark-mode-title" : "heading-title"}>
-              <a href="https://www.som.com/culture/careers/student-opps/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.som.com/culture/careers/student-opps/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Program Management
               </a>
             </h1>
             <p className={isDark ? "dark-mode-text" : "subTitle"}>
-              From organizing career fairs and engineering internship/externship programs to managing full time early career pipelines, my work supports students and recent grads in exploring career paths within the industry.
+              From organizing career fairs and engineering internship/externship
+              programs to managing full time early career pipelines, my work
+              supports students and recent grads in exploring career paths
+              within the industry.
             </p>
           </div>
         </Fade>
-        
+
         <div className="prog-mgmt-cards-div">
           {programs.map((prog, i) => (
             <Fade bottom duration={1000} distance="40px" key={i}>
-              <div className={isDark ? "prog-mgmt-card-dark" : "prog-mgmt-card"}>
-                <h3 className={isDark ? "dark-mode-title" : "prog-mgmt-card-title"}>{prog.title}</h3>
-                <p className={isDark ? "dark-mode-text" : "prog-mgmt-card-text"}>{prog.desc}</p>
+              <div
+                className={isDark ? "prog-mgmt-card-dark" : "prog-mgmt-card"}
+              >
+                <h3
+                  className={
+                    isDark ? "dark-mode-title" : "prog-mgmt-card-title"
+                  }
+                >
+                  {prog.title}
+                </h3>
+                <p
+                  className={isDark ? "dark-mode-text" : "prog-mgmt-card-text"}
+                >
+                  {prog.desc}
+                </p>
               </div>
             </Fade>
           ))}
         </div>
+        <Fade bottom duration={1000} distance="40px">
+          <div className="back-btn-container">
+            <Link to="/" className="back-btn">
+              <i className="fas fa-arrow-left" aria-hidden="true"></i> Back to
+              Home
+            </Link>
+          </div>
+        </Fade>
       </div>
     </div>
   );

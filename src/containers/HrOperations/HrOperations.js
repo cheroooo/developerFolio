@@ -1,10 +1,11 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
+import {Link} from "react-router-dom";
 import StyleContext from "../../contexts/StyleContext";
-import { Fade } from "react-reveal";
+import {Fade} from "react-reveal";
 import "./HrOperations.scss";
 
 export default function HrOperations() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
 
   const operations = [
     {
@@ -42,7 +43,9 @@ export default function HrOperations() {
               HR Operations
             </h1>
             <p className={isDark ? "dark-mode-text" : "subTitle"}>
-              Supporting cross functional leaders and teams, curating a high touch workplace experience, and optimizing daily workflows to drive continuous improvement. 
+              Supporting cross functional leaders and teams, curating a high
+              touch workplace experience, and optimizing daily workflows to
+              drive continuous improvement.
               <br />
               Below is the scope of work I oversee on a day to day basis:
             </p>
@@ -52,12 +55,26 @@ export default function HrOperations() {
           {operations.map((op, i) => (
             <Fade bottom duration={1000} distance="40px" key={i}>
               <div className={isDark ? "hr-ops-card-dark" : "hr-ops-card"}>
-                <h3 className={isDark ? "dark-mode-title" : "hr-ops-card-title"}>{op.title}</h3>
-                <p className={isDark ? "dark-mode-text" : "hr-ops-card-text"}>{op.desc}</p>
+                <h3
+                  className={isDark ? "dark-mode-title" : "hr-ops-card-title"}
+                >
+                  {op.title}
+                </h3>
+                <p className={isDark ? "dark-mode-text" : "hr-ops-card-text"}>
+                  {op.desc}
+                </p>
               </div>
             </Fade>
           ))}
         </div>
+        <Fade bottom duration={1000} distance="40px">
+          <div className="back-btn-container">
+            <Link to="/" className="back-btn">
+              <i className="fas fa-arrow-left" aria-hidden="true"></i> Back to
+              Home
+            </Link>
+          </div>
+        </Fade>
       </div>
     </div>
   );

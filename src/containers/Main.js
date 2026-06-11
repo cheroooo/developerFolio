@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import Header from "../components/header/Header";
-import { Switch, Route } from "react-router-dom";
+import {Switch, Route} from "react-router-dom";
 import Home from "./Home/Home";
 import ProgramManagement from "./ProgramManagement/ProgramManagement";
 import HrOperations from "./HrOperations/HrOperations";
@@ -41,7 +41,11 @@ const Main = () => {
             <Header />
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route exact path="/program-management" component={ProgramManagement} />
+              <Route
+                exact
+                path="/program-management"
+                component={ProgramManagement}
+              />
               <Route exact path="/hr-operations" component={HrOperations} />
             </Switch>
             <Footer />

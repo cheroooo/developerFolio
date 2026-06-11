@@ -23,10 +23,8 @@ export default function Greeting() {
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
-                <span className="wave-emoji">{emoji("👋")}</span>
-                {" "}
-                {greeting.title}{" "}
-                <SocialMedia />
+                <span className="wave-emoji">{emoji("👋")}</span>{" "}
+                {greeting.title} <SocialMedia />
               </h1>
               <p
                 className={
@@ -37,11 +35,11 @@ export default function Greeting() {
               >
                 An experienced HR Specialist oversees:
                 <br />
-                Operations, Reruitment, Early career development, Performance, & Employee engagement.
+                Operations, Reruitment, Early career development, Performance, &
+                Employee engagement.
               </p>
             </div>
           </div>
-         
         </div>
       </div>
     </Fade>

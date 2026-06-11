@@ -7,14 +7,14 @@ export default function socialMedia() {
     return null;
   }
   return (
-        <a
-          href={socialMediaLinks.linkedin}
-          className="icon-button linkedin"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-linkedin-in"></i>
-          <span></span>
-        </a>
+    <a
+      href={socialMediaLinks.linkedin}
+      className="icon-button linkedin"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i className="fab fa-linkedin-in"></i>
+      <span></span>
+    </a>
   );
 }

@@ -1,7 +1,7 @@
 import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
@@ -33,17 +33,21 @@ export default function ExperienceCard({cardInfo, isDark}) {
 
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
-      <div style={{background: cardInfo.company === "New Alternatives For Children" ? "rgb(28, 75, 151)" : rgb(colorArrays)}} className="experience-banner">
+      <div
+        style={{
+          background:
+            cardInfo.company === "New Alternatives For Children"
+              ? "rgb(28, 75, 151)"
+              : rgb(colorArrays)
+        }}
+        className="experience-banner"
+      >
         <div className="experience-blurred_div"></div>
         <div className="experience-div-company">
           <h5 className="experience-text-company">{cardInfo.company}</h5>
         </div>
 
-        <a
-          href={cardInfo.website}
-          target="_blank" 
-          rel="noreferrer"
-        >
+        <a href={cardInfo.website} target="_blank" rel="noreferrer">
           <img
             crossOrigin={"anonymous"}
             ref={imgRef}
@@ -87,32 +91,35 @@ export default function ExperienceCard({cardInfo, isDark}) {
         </ul>
         {cardInfo.company === "Skidmore, Owings & Merrill" && (
           <div className="experience-card-footer-links">
-           
-          
-            <Link 
+            <Link
               to="/hr-operations"
               className={isDark ? "subTitle dark-mode-text" : "subTitle"}
-              style={{ display: "inline-block", marginRight: "10px", marginTop: "10px", fontWeight: "bold", color: "#55198b" }}
+              style={{
+                display: "inline-block",
+                marginRight: "10px",
+                marginTop: "10px",
+                fontWeight: "bold",
+                color: "#55198b"
+              }}
             >
-
-
               ➔ HR Operations
             </Link>
-                
-                      <br />
 
-          <Link 
+            <br />
+
+            <Link
               to="/program-management"
               className={isDark ? "subTitle dark-mode-text" : "subTitle"}
-              style={{ display: "inline-block", marginRight: "10px", marginTop: "10px", fontWeight: "bold", color: "#55198b" }}
+              style={{
+                display: "inline-block",
+                marginRight: "10px",
+                marginTop: "10px",
+                fontWeight: "bold",
+                color: "#55198b"
+              }}
             >
-
-
-
               ➔ Program Management
             </Link>
-           
-              
           </div>
         )}
       </div>

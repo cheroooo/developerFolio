@@ -22,9 +22,8 @@ const illustration = {
 const greeting = {
   username: "Lixin Zhu",
   title: "Hi there, I am Lixin",
-  
-  resumeLink:
-    "", // Set to empty to hide the button
+
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -43,10 +42,10 @@ const skillsSection = {
   title: "Work Scope",
   subTitle: "",
   skills: [
+    emoji("- Manage full employee life cycle, from onboarding to offboarding"),
     emoji(
-      "- Manage full employee life cycle, from onboarding to offboarding"
+      "- Engineer Internship and Externship programs, design an immersive program experience to sustain future talents"
     ),
-    emoji("- Engineer Internship and Externship programs, design an immersive program experience to sustain future talents"),
     emoji(
       "- Find patterns in information, analyze and visualize data to create compelling narrative"
     )
@@ -56,30 +55,27 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-   
-
- {
+    {
       skillName: "Communication",
       fontAwesomeClassname: "fa-solid fa-comments"
     },
-    
- {
+
+    {
       skillName: "Workday",
       fontAwesomeClassname: "fa-solid fa-w"
     },
-    
-  {
+
+    {
       skillName: "Data Analysis",
       fontAwesomeClassname: "fa-solid fa-chart-column"
     },
-    
-{
+
+    {
       skillName: "Google Suite",
       fontAwesomeClassname: "fa-solid fa-g"
     },
 
-    
-        {
+    {
       skillName: "Automation",
       fontAwesomeClassname: "fa-solid fa-gears"
     },
@@ -88,20 +84,11 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "ADP",
       fontAwesomeClassname: "fa-solid fa-a"
     },
-    
 
-{
+    {
       skillName: "Microsoft",
       fontAwesomeClassname: "fa-brands fa-microsoft"
-    },
-    
-    
-    
-    
-    
-   
-  
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -117,11 +104,8 @@ const educationInfo = {
       subHeader: "BBA, Operations Management",
       Graduation: "Graduated in June 2021",
       desc: "",
-      descBullets: [
-        
-      ]
-    },
-   
+      descBullets: []
+    }
   ]
 };
 
@@ -158,9 +142,9 @@ const workExperiences = {
       date: "April 2022 – Present",
       website: "https://www.som.com/",
       desc: "",
-      descBullets: ["HR professional with 4+ years of experience specializing in end to end HR operations and early career program management."]
-       
-      
+      descBullets: [
+        "HR professional with 4+ years of experience specializing in end to end HR operations and early career program management."
+      ]
     },
     {
       role: "HR Specialist",
@@ -169,10 +153,11 @@ const workExperiences = {
       date: "September 2021 – April 2022",
       website: "https://nackidscan.org/",
       desc: "",
-      descBullets: ["Managed employee records, ensuring the accuracy of compensation, benefits, and onboarding documents.",
-                    "Strong attention to detail, maintaining regulatory compliance data to meet local regulatory mandates."]
-    },
-   
+      descBullets: [
+        "Managed employee records, ensuring the accuracy of compensation, benefits, and onboarding documents.",
+        "Strong attention to detail, maintaining regulatory compliance data to meet local regulatory mandates."
+      ]
+    }
   ]
 };
 
@@ -345,8 +330,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me"),
-  subtitle:
-    "",
+  subtitle: "",
   number: "",
   email_address: ""
 };
