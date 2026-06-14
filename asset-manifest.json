@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.d135000a.css",
-    "main.js": "/static/js/main.64a61c8e.js",
-    "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
+    "main.css": "/static/css/main.85d7c4c7.css",
+    "main.js": "/static/js/main.a98bd70e.js",
+    "static/css/64.19e056e0.chunk.css": "/static/css/64.19e056e0.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.4b5442be7ce36410a8cf.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/themeBackground.jpg": "/static/media/themeBackground.622cae9e3255c1da415e.jpg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
@@ -19,13 +20,13 @@
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.d135000a.css.map": "/static/css/main.d135000a.css.map",
-    "main.64a61c8e.js.map": "/static/js/main.64a61c8e.js.map",
-    "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
+    "main.85d7c4c7.css.map": "/static/css/main.85d7c4c7.css.map",
+    "main.a98bd70e.js.map": "/static/js/main.a98bd70e.js.map",
+    "64.19e056e0.chunk.css.map": "/static/css/64.19e056e0.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d135000a.css",
-    "static/js/main.64a61c8e.js"
+    "static/css/main.85d7c4c7.css",
+    "static/js/main.a98bd70e.js"
   ]
 }
