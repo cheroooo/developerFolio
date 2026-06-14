@@ -6,7 +6,8 @@ import ProgramManagement from "./ProgramManagement/ProgramManagement";
 import HrOperations from "./HrOperations/HrOperations";
 import Footer from "../components/footer/Footer";
 import ScrollToTopButton from "./topbutton/Top";
-import SplashScreen from "./splashScreen/SplashScreen";
+import CoverPage from "./coverPage/CoverPage";
+import FallingPetals from "../components/fallingPetals/FallingPetals";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
@@ -35,9 +36,10 @@ const Main = () => {
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
         {isShowingSplashAnimation && splashScreen.enabled ? (
-          <SplashScreen />
+          <CoverPage />
         ) : (
           <>
+            <FallingPetals />
             <Header />
             <Switch>
               <Route exact path="/" component={Home} />
