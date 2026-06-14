@@ -58,20 +58,36 @@
   margin-top: 1rem;
 }
 
-.headshot-img {
-  width: 320px;
-  height: 320px;
+.headshot-wrapper {
+  width: 230px;
+  height: 230px;
   border-radius: 50%;
-  object-fit: cover;
-  border: 6px solid #55198b;
-  box-shadow: 0 15px 35px rgba(85, 25, 139, 0.25);
+  overflow: hidden;
+  border: 3px solid #cbd5e1; // Premium slate-gray border
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); // Clean neutral shadow
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &:hover {
     transform: scale(1.05) translateY(-5px);
-    box-shadow: 0 25px 45px rgba(85, 25, 139, 0.4);
-    border-color: #8c43ce;
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.15); // Enhanced neutral shadow
+    border-color: #94a3b8; // Darker slate-gray on hover
+
+    .headshot-img {
+      transform: scale(1.35); // Magnified on hover with top edge fixed
+    }
   }
+}
+
+.headshot-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.25); // Zoomed in 1.25x by default
+  transform-origin: center top; // Anchored exactly to the top of the circle (tangent)
+  transition: transform 0.5s ease;
 }
 
 .wave-emoji {
@@ -135,10 +151,10 @@
     margin-top: 2.5rem;
     margin-bottom: 1rem;
   }
-  .headshot-img {
-    width: 240px;
-    height: 240px;
-    border-width: 4px;
+  .headshot-wrapper {
+    width: 172px;
+    height: 172px;
+    border-width: 2px;
   }
 }
 
