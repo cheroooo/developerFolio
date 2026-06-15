@@ -142,19 +142,28 @@
 
 @media (max-width: 768px) {
   .experience-text-role {
-    font-size: 22px;
+    font-size: 19px;
   }
   .experience-text-company {
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 1.2;
+    white-space: normal;
   }
   .experience-text-date {
-    font-size: 18px;
+    font-size: 15px;
   }
   .experience-text-desc {
-    font-size: 16px;
+    font-size: 14px;
   }
   .experience-text-details {
     margin-top: 1rem;
     padding: 1rem;
+  }
+  .experience-text-details ul {
+    padding-left: 1.1rem;
+  }
+  .experience-text-details li {
+    font-size: 14px;
+    line-height: 1.45;
   }
 }

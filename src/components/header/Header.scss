@@ -2,7 +2,7 @@
 
 /*React-headroom*/
 .headroom-wrapper {
-  max-height: 100px;
+  min-height: 100px;
 }
 
 /* header */
@@ -57,7 +57,7 @@
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
-  color: #4a0c3d;
+  color: #4f5d2c;
 }
 
 .header .logo-name {
@@ -178,5 +178,16 @@
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    background-color: #edf0de;
+    box-sizing: border-box;
+  }
+
+  .header .menu {
+    background-color: #edf0de;
   }
 }

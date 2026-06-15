@@ -5,6 +5,7 @@
 }
 
 .icon-button {
+  display: inline-block;
   margin-bottom: 10px;
 }
 
@@ -92,5 +93,9 @@ h1 .icon-button i {
 @media (max-width: 768px) {
   .social-media-div {
     text-align: center;
+  }
+
+  h1 .icon-button i {
+    margin: 6px;
   }
 }

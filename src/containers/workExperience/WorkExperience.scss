@@ -1,7 +1,7 @@
 .experience-cards-div {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 450px));
-  gap: 1rem 4rem;
+  gap: 2.5rem 4rem;
   justify-content: center;
 }
 
@@ -40,7 +40,12 @@
     font-size: 30px;
     text-align: center;
   }
-  .experience-card {
-    margin: 0;
+  .experience-cards-div {
+    gap: 2rem;
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .experience-card,
+  .experience-card-dark {
+    margin: 0 1.25rem;
   }
 }

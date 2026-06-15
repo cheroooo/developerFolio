@@ -31,6 +31,12 @@ export default function ExperienceCard({cardInfo, isDark}) {
       : null;
   };
 
+  function formatCompanyName(company) {
+    return company === "New Alternatives For Children"
+      ? "New Alternatives For\u00a0Children"
+      : company;
+  }
+
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
       <div
@@ -44,7 +50,9 @@ export default function ExperienceCard({cardInfo, isDark}) {
       >
         <div className="experience-blurred_div"></div>
         <div className="experience-div-company">
-          <h5 className="experience-text-company">{cardInfo.company}</h5>
+          <h5 className="experience-text-company">
+            {formatCompanyName(cardInfo.company)}
+          </h5>
         </div>
 
         <a href={cardInfo.website} target="_blank" rel="noreferrer">

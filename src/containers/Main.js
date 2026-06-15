@@ -15,11 +15,14 @@ import "./Main.scss";
 
 const Main = () => {
   const isDark = false;
+  const isCoverTestMode =
+    typeof window !== "undefined" &&
+    new URLSearchParams(window.location.search).get("coverTest") === "1";
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 
   useEffect(() => {
-    if (splashScreen.enabled) {
+    if (splashScreen.enabled && !isCoverTestMode) {
       const splashTimer = setTimeout(
         () => setIsShowingSplashAnimation(false),
         splashScreen.duration
@@ -28,7 +31,7 @@ const Main = () => {
         clearTimeout(splashTimer);
       };
     }
-  }, []);
+  }, [isCoverTestMode]);
 
   const changeTheme = () => {};
 
