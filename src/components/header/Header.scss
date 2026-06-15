@@ -21,10 +21,30 @@
 }
 
 .header {
+  position: relative; // anchor the petal burst layer
   background-color: transparent;
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
+}
+
+// Petals spawned on menu hover drift within this layer; never blocks clicks.
+.header-petal-layer {
+  position: absolute;
+  inset: 0;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.header-petal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 150% 0 150% 0; // soft petal / leaf silhouette
+  opacity: 0;
+  will-change: transform, opacity;
+  pointer-events: none;
 }
 
 .header ul {
@@ -47,7 +67,8 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: $headerHoverBG;
+  background-color: transparent;
+  color: #4f5d2c; // brand olive: keeps a hover cue without the white block
 }
 
 .header .logo {
