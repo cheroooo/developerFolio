@@ -1,0 +1,63 @@
+@import "../../_globalColor";
+
+.about-page {
+  min-height: 100vh;
+  background-image: url("../../assets/images/WechatIMG1520.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  top: -100px;
+  margin-bottom: -100px;
+  padding-top: 100px;
+}
+
+.about-main {
+  width: 55%;
+  max-width: 700px;
+  margin: 0;
+  padding: 80px 6vw;
+}
+
+.about-heading {
+  font-size: 42px;
+  font-weight: 400;
+  color: #3a5228;
+  margin-bottom: 12px;
+}
+
+.about-subtitle {
+  font-size: 18px;
+  color: #5a7a40;
+  margin-bottom: 40px;
+  font-family: "Agustina Regular", cursive;
+  font-size: 24px;
+}
+
+.about-body {
+  font-size: 16px;
+  color: #3a4a2a;
+  line-height: 1.9;
+  margin-bottom: 24px;
+}
+
+.about-divider {
+  border: none;
+  border-top: 1px solid rgba(90, 120, 60, 0.3);
+  margin: 32px 0;
+}
+
+@media (max-width: 768px) {
+  .about-main {
+    width: 90%;
+    padding: 60px 6vw;
+  }
+
+  .about-heading {
+    font-size: 30px;
+  }
+}

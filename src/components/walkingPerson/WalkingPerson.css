@@ -1,0 +1,61 @@
+.walking-scene {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 999;
+}
+
+.walking-person {
+  position: absolute;
+  transition: clip-path 0.25s ease;
+}
+
+.person-body {
+  animation: body-bob 0.4s ease-in-out infinite alternate;
+  transform-origin: 0px -20px;
+}
+
+.leg-left {
+  animation: leg-left-swing 0.4s ease-in-out infinite alternate;
+  transform-origin: 0px -10px;
+}
+
+.leg-right {
+  animation: leg-right-swing 0.4s ease-in-out infinite alternate;
+  transform-origin: 0px -10px;
+}
+
+.arm-left {
+  animation: arm-left-swing 0.4s ease-in-out infinite alternate;
+  transform-origin: 0px -25px;
+}
+
+.arm-right {
+  animation: arm-right-swing 0.4s ease-in-out infinite alternate;
+  transform-origin: 0px -25px;
+}
+
+@keyframes body-bob {
+  from { transform: translateY(0px); }
+  to   { transform: translateY(-1.5px); }
+}
+
+@keyframes leg-left-swing {
+  from { transform: rotate(-25deg); }
+  to   { transform: rotate(20deg); }
+}
+
+@keyframes leg-right-swing {
+  from { transform: rotate(20deg); }
+  to   { transform: rotate(-25deg); }
+}
+
+@keyframes arm-left-swing {
+  from { transform: rotate(20deg); }
+  to   { transform: rotate(-25deg); }
+}
+
+@keyframes arm-right-swing {
+  from { transform: rotate(-25deg); }
+  to   { transform: rotate(20deg); }
+}

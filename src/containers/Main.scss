@@ -1,5 +1,66 @@
 @import "../_globalColor";
 
+html {
+  background-color: #F5EFE6;
+}
+
+body {
+  background-color: #F5EFE6;
+  transition: background-color 0.4s ease;
+  background-image: url("../assets/images/anthropicWave.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% 100vh;
+  background-attachment: fixed;
+}
+
+/* About Me page — painting covers full page including overscroll */
+html.page-about,
+body.page-about {
+  background-image: url("../assets/images/WechatIMG1520.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-color: #c8d9a8 !important;
+}
+
+/* About Me page — fully transparent header/footer so the painting shows through */
+[data-page="about"] .headroom-wrapper,
+[data-page="about"] .headroom,
+[data-page="about"] .headroom--pinned,
+[data-page="about"] .headroom--unfixed,
+[data-page="about"] .headroom--scrolled,
+[data-page="about"] .header {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  transition: background-color 0.4s ease;
+}
+
+[data-page="about"] .footer-div {
+  background-color: transparent !important;
+  transition: background-color 0.4s ease;
+}
+
+[data-page="about"] .footer-text {
+  color: #3a5228 !important;
+}
+
+/* Home page — cream theme */
+[data-page="home"] .headroom-wrapper,
+[data-page="home"] .headroom,
+[data-page="home"] .headroom--pinned,
+[data-page="home"] .headroom--unfixed,
+[data-page="home"] .headroom--scrolled,
+[data-page="home"] .header {
+  background-color: #F5EFE6 !important;
+  transition: background-color 0.4s ease;
+}
+
+[data-page="home"] .footer-div {
+  background-color: #F5EFE6 !important;
+  transition: background-color 0.4s ease;
+}
+
 .dark-mode {
   background-color: $darkBackground;
   color: white;

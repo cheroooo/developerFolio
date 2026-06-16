@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from "react";
 import "./CoverPage.scss";
-import painting from "../../assets/images/themeBackground.jpg";
+import painting from "../../assets/images/anthropicWave.svg";
 
 const TAGLINE = "Welcome to My Page";
 
@@ -52,11 +52,8 @@ export default function CoverPage() {
       window.matchMedia &&
       window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    if (prefersReduced) {
-      // No flurry: just present the crisp tagline.
-      effect.classList.add("cover-tagline-effect--revealed");
-      return;
-    }
+    effect.classList.add("cover-tagline-effect--revealed");
+    return;
 
     let raf = 0;
     let stopped = false;

@@ -8,6 +8,8 @@
 .experience-card,
 .experience-card-dark {
   margin: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .experience-heading {
