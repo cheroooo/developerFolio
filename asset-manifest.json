@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0cae8daf.css",
+    "main.css": "/static/css/main.0c080ec1.css",
     "main.js": "/static/js/main.ab856afc.js",
     "static/css/64.19e056e0.chunk.css": "/static/css/64.19e056e0.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
@@ -20,13 +20,13 @@
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.0cae8daf.css.map": "/static/css/main.0cae8daf.css.map",
+    "main.0c080ec1.css.map": "/static/css/main.0c080ec1.css.map",
     "main.ab856afc.js.map": "/static/js/main.ab856afc.js.map",
     "64.19e056e0.chunk.css.map": "/static/css/64.19e056e0.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cae8daf.css",
+    "static/css/main.0c080ec1.css",
     "static/js/main.ab856afc.js"
   ]
 }
