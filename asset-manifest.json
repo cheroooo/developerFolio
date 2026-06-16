@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c080ec1.css",
-    "main.js": "/static/js/main.ab856afc.js",
+    "main.css": "/static/css/main.ec7b3b32.css",
+    "main.js": "/static/js/main.689ab7fc.js",
     "static/css/64.19e056e0.chunk.css": "/static/css/64.19e056e0.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.4b5442be7ce36410a8cf.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/themeBackground.jpg": "/static/media/themeBackground.ac843dbe3f4d1cc770a9.jpg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/WechatIMG1520.jpg": "/static/media/WechatIMG1520.c1bca5ae559d2c93fa3e.jpg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/NACLogo": "/static/media/NACLogo.f804b2473623066b03f2",
@@ -20,13 +21,14 @@
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.0c080ec1.css.map": "/static/css/main.0c080ec1.css.map",
-    "main.ab856afc.js.map": "/static/js/main.ab856afc.js.map",
+    "static/media/anthropicWave.svg": "/static/media/anthropicWave.af251491a0a670d4d5070a2aad65a36f.svg",
+    "main.ec7b3b32.css.map": "/static/css/main.ec7b3b32.css.map",
+    "main.689ab7fc.js.map": "/static/js/main.689ab7fc.js.map",
     "64.19e056e0.chunk.css.map": "/static/css/64.19e056e0.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c080ec1.css",
-    "static/js/main.ab856afc.js"
+    "static/css/main.ec7b3b32.css",
+    "static/js/main.689ab7fc.js"
   ]
 }
