@@ -30,9 +30,17 @@
 }
 
 h1 .icon-button i {
-  margin: 10px;
+  // Match the handshake emoji: that emoji renders ~1em tall, so size the
+  // LinkedIn circle to 1em of the heading too (1.6 * 0.62em ≈ 1em).
+  font-size: 0.62em;
+  height: 1.6em;
+  width: 1.6em;
+  line-height: 1.6em;
+  margin: 0 0.2em;
   position: relative;
-  bottom: 5px;
+  bottom: 0.064em; // nudged up ~4% of the heading height
+  left: -0.208em; // nudged left ~13% of the heading height
+  vertical-align: middle;
 }
 
 .facebook i {

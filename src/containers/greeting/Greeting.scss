@@ -136,7 +136,7 @@
     justify-content: space-around;
   }
   .greeting-text {
-    font-size: 26px;
+    font-size: 22px;
     text-align: center;
   }
   .greeting-text-p {
@@ -158,8 +158,17 @@
   }
 }
 
+@media (max-width: 480px) {
+  .greeting-text {
+    font-size: 19px; // keep the wave emoji and the title on one line
+  }
+}
+
 @media (max-width: 320px) {
   .main {
     width: auto;
+  }
+  .greeting-text {
+    font-size: 17px;
   }
 }
