@@ -39,22 +39,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
 
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
-      <div
-        style={{
-          background:
-            cardInfo.company === "New Alternatives For Children"
-              ? "rgb(28, 75, 151)"
-              : rgb(colorArrays)
-        }}
-        className="experience-banner"
-      >
-        <div className="experience-blurred_div"></div>
-        <div className="experience-div-company">
-          <h5 className="experience-text-company">
-            {formatCompanyName(cardInfo.company)}
-          </h5>
-        </div>
-
+      <div className={`experience-logo-section experience-logo-${cardInfo.company.replace(/[^a-zA-Z]/g, "").toLowerCase()}`}>
         <a href={cardInfo.website} target="_blank" rel="noreferrer">
           <img
             crossOrigin={"anonymous"}
@@ -67,34 +52,13 @@ export default function ExperienceCard({cardInfo, isDark}) {
         </a>
       </div>
       <div className="experience-text-details">
-        <h5
-          className={
-            isDark
-              ? "experience-text-role dark-mode-text"
-              : "experience-text-role"
-          }
-        >
-          {cardInfo.role}
+        <h5 className={isDark ? "experience-text-company dark-mode-text" : "experience-text-company"}>
+          {formatCompanyName(cardInfo.company)}
         </h5>
-        <h5
-          className={
-            isDark
-              ? "experience-text-date dark-mode-text"
-              : "experience-text-date"
-          }
-        >
-          {cardInfo.date}
+        <h5 className={isDark ? "experience-text-role dark-mode-text" : "experience-text-role"}>
+          {cardInfo.role}, {cardInfo.date}
         </h5>
-        <p
-          className={
-            isDark
-              ? "subTitle experience-text-desc dark-mode-text"
-              : "subTitle experience-text-desc"
-          }
-        >
-          {cardInfo.desc}
-        </p>
-        <ul>
+        <ul className="experience-bullets">
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
         {cardInfo.company === "Skidmore, Owings & Merrill" && (

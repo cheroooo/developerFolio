@@ -1,4 +1,5 @@
 import React, {useContext} from "react";
+import {Link} from "react-router-dom";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
@@ -33,10 +34,7 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                An experienced HR Specialist oversees:
-                <br />
-                Operations, Recruitment, Early career development, Performance, &
-                Employee engagement.
+                I am an HR professional specializing in operations, early career development, automation, and metrics reporting. After 5 years in the HR field, I've come to believe that talent is a business's greatest asset, and I enjoy helping both people and companies succeed by aligning their expectations. There's still so much for me to explore, so I keep one mantra in mind: learn, unlearn, and relearn. Feel free to explore this page to learn more about my work experience, and you can find a few surprises on the <Link to="/about" className="greeting-about-link">About Me</Link> page!
               </p>
             </div>
           </div>

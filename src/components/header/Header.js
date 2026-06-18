@@ -1,4 +1,6 @@
-import React, {useContext} from "react";
+import React, {useContext, useState} from "react";
+import {Link, useHistory} from "react-router-dom";
+import FallingPetals from "../fallingPetals/FallingPetals";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -16,6 +18,18 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
+  const history = useHistory();
+  const [showPetals, setShowPetals] = useState(false);
+
+  function handleAboutMeClick(e) {
+    e.preventDefault();
+    if (showPetals) return;
+    setShowPetals(true);
+    setTimeout(() => {
+      setShowPetals(false);
+      history.push("/about");
+    }, 3000);
+  }
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -26,6 +40,8 @@ function Header() {
 
 
   return (
+    <>
+    {showPetals && <FallingPetals count={180} duration={3000} startOnScreen={true} />}
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
 <a href="/" className="logo">
@@ -98,6 +114,7 @@ function Header() {
         </ul>
       </header>
     </Headroom>
+    </>
   );
 }
 export default Header;

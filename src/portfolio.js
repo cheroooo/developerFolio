@@ -56,7 +56,7 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "AI",
+      skillName: "Vibe Coding",
       fontAwesomeClassname: "fa-solid fa-hexagon-nodes"
     },
 
@@ -143,7 +143,7 @@ const workExperiences = {
       website: "https://www.som.com/",
       desc: "",
       descBullets: [
-        "HR professional with 4+ years of experience specializing in end to end HR operations and early career program management."
+        "I manage end-to-end HR operations and early career programs, covering recruitment, career development, performance, and employee engagement. Click below to learn more about what I do!"
       ]
     },
     {
@@ -154,8 +154,7 @@ const workExperiences = {
       website: "https://nackidscan.org/",
       desc: "",
       descBullets: [
-        "Managed employee records, ensuring the accuracy of compensation, benefits, and onboarding documents.",
-        "Strong attention to detail, maintaining regulatory compliance data to meet local regulatory mandates."
+        "Managed employee records, ensuring the accuracy of benefits, compensation, and onboarding documents. Strong attention to detail, maintaining regulatory compliance data to meet local regulatory mandates."
       ]
     }
   ]

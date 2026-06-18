@@ -14,7 +14,7 @@ const PETAL_COLORS = [
 const BRUSH_RADIUS = 110; // how close the cursor must be to disturb a petal
 const BRUSH_STRENGTH = 2.6; // how hard the cursor sweeps petals away
 
-export default function FallingPetals({count = 22, duration = 10000}) {
+export default function FallingPetals({count = 22, duration = 10000, startOnScreen = false}) {
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -53,13 +53,14 @@ export default function FallingPetals({count = 22, duration = 10000}) {
         el,
         size,
         x: Math.random() * vw,
-        // staggered above the screen so they drift in at different moments
-        y: -(Math.random() * vh * 1.2) - size,
+        y: startOnScreen
+          ? Math.random() * vh
+          : -(Math.random() * vh * 1.2) - size,
         vx: (Math.random() - 0.5) * 0.6,
-        vy: 0.6 + Math.random() * 0.7, // base fall speed
+        vy: 0.6 + Math.random() * 0.7,
         rot: Math.random() * 360,
-        vrot: (Math.random() - 0.5) * 4, // tumble speed
-        swayAmp: 0.015 + Math.random() * 0.02, // flutter strength
+        vrot: (Math.random() - 0.5) * 4,
+        swayAmp: 0.015 + Math.random() * 0.02,
         swayFreq: 0.6 + Math.random() * 0.9,
         phase: Math.random() * Math.PI * 2
       };
@@ -149,7 +150,7 @@ export default function FallingPetals({count = 22, duration = 10000}) {
       window.removeEventListener("resize", onResize);
       petals.forEach(p => p.el.remove());
     };
-  }, [count, duration]);
+  }, [count, duration, startOnScreen]);
 
   return <div className="falling-petals" aria-hidden="true" ref={containerRef} />;
 }

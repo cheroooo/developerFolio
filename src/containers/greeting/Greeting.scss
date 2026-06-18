@@ -10,7 +10,7 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 1rem;
+  margin-top: -4vh;
 }
 
 .greeting-main {
@@ -171,4 +171,15 @@
   .greeting-text {
     font-size: 17px;
   }
+}
+
+
+.greeting-about-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.greeting-about-link:hover {
+  color: #c8d9a8;
 }

@@ -21,6 +21,27 @@
   max-width: 700px;
   margin: 0;
   padding: 80px 6vw;
+  transform: translateY(-145%);
+}
+
+.about-back-container {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-back-container .back-btn {
+  background-color: #c8d9a8 !important;
+  border-color: #c8d9a8 !important;
+  color: #2F3E36 !important;
+  box-shadow: none;
+
+  &:hover {
+    background-color: #b5c994 !important;
+    border-color: #b5c994 !important;
+    box-shadow: none;
+  }
 }
 
 .about-heading {

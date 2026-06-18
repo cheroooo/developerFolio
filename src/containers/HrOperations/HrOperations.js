@@ -69,8 +69,7 @@ export default function HrOperations() {
         </div>
         <div className="back-btn-container">
           <Link to="/" className="back-btn">
-            <i className="fas fa-arrow-left" aria-hidden="true"></i> Back to
-            Home
+            ← Home Page
           </Link>
         </div>
       </div>
