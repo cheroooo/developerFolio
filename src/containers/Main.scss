@@ -2,9 +2,11 @@
 
 html {
   background-color: #F5EFE6;
+  overflow-x: hidden;
 }
 
 body {
+  overflow-x: hidden;
   background-color: #F5EFE6;
   transition: background-color 0.4s ease;
   background-image: url("../assets/images/anthropicWave.svg");
@@ -22,6 +24,17 @@ body.page-about {
   background-position: center !important;
   background-attachment: fixed !important;
   background-color: #c8d9a8 !important;
+}
+
+@media (max-width: 768px) {
+  html.page-about,
+  body.page-about {
+    background-attachment: scroll !important;
+  }
+
+  body {
+    background-attachment: scroll;
+  }
 }
 
 /* About Me page — fully transparent header/footer so the painting shows through */

@@ -282,12 +282,171 @@
 }
 
 @media (max-width: 768px) {
+  .about-page {
+    top: 0;
+    margin-bottom: 0;
+    padding-top: 70px;
+    background-attachment: scroll;
+    align-items: flex-start;
+  }
+
   .about-main {
-    width: 90%;
-    padding: 60px 6vw;
+    width: 100%;
+    padding: 24px 5vw 60px;
+    transform: none;
   }
 
   .about-heading {
-    font-size: 30px;
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+
+  .about-subtitle {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  .about-asymmetric {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  /* Reset all cells to normal document flow */
+  .about-cell-1,
+  .about-cell-2,
+  .about-cell-3,
+  .about-cell-4,
+  .about-cell-5,
+  .about-cell-6 {
+    width: 100%;
+    transform: none !important;
+    position: relative;
+    left: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    overflow: visible;
+    height: auto;
+  }
+
+  /* Videos: landscape ratio on mobile */
+  .about-cell-1,
+  .about-cell-3 {
+    aspect-ratio: 16 / 9;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+
+  /* Photo + video row → vertical stack */
+  .about-cell-2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .about-cell-img-half {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: 12px;
+  }
+
+  .about-cell-circle-video {
+    width: 100%;
+    max-width: 320px;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .about-cell-circle-video iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+
+  /* Text boxes */
+  .about-cell-6 {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-cell-placeholder {
+    font-size: 15px;
+    padding: 0.75rem;
+    background: rgba(200, 217, 168, 0.25);
+    border-radius: 10px;
+  }
+
+  /* Grand Canyon photo & caption */
+  .about-img-20260212-text {
+    position: relative;
+    left: auto;
+    top: auto;
+    font-size: 14px;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .about-img-20260212 {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  /* Food section */
+  .about-food-text {
+    position: relative;
+    left: auto;
+    top: auto;
+    white-space: normal;
+    font-size: 15px;
+    margin: 0.5rem 0;
+  }
+
+  .about-img-20251129,
+  .about-img-8428,
+  .about-img-xiaolongbao {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    margin: 0.25rem;
+  }
+
+  /* Cat story text */
+  .about-cell-7-text {
+    position: relative;
+    right: auto;
+    top: auto;
+    font-size: 15px;
+    max-width: 100%;
+    line-height: 1.7;
+    margin: 0.5rem 0;
+  }
+
+  .about-back-container {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
   }
 }
