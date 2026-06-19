@@ -1,10 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d34808f.css",
-    "main.js": "/static/js/main.36b5820f.js",
+    "main.css": "/static/css/main.90d40ba5.css",
+    "main.js": "/static/js/main.f09156b7.js",
     "static/css/64.19e056e0.chunk.css": "/static/css/64.19e056e0.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
+    "static/media/xiaolongbao.jpeg": "/static/media/xiaolongbao.2bddac417b1f90eb293e.jpeg",
     "static/media/headshot.jpg": "/static/media/headshot.4b5442be7ce36410a8cf.jpg",
+    "static/media/sushi1.jpeg": "/static/media/sushi1.d217a446f39ac6ae3e24.jpeg",
+    "static/media/20251129.jpg": "/static/media/20251129.828aff232cf653c3c0c3.jpg",
+    "static/media/WechatIMG1526.jpg": "/static/media/WechatIMG1526.12a176e71c2e210a4266.jpg",
+    "static/media/grandcanyon.jpg": "/static/media/grandcanyon.cf9a9ce61a1b2ac434af.jpg",
+    "static/media/WechatIMG1527.jpg": "/static/media/WechatIMG1527.2b560e94f704450b8368.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/themeBackground.jpg": "/static/media/themeBackground.ac843dbe3f4d1cc770a9.jpg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -22,13 +28,13 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "static/media/anthropicWave.svg": "/static/media/anthropicWave.af251491a0a670d4d5070a2aad65a36f.svg",
-    "main.1d34808f.css.map": "/static/css/main.1d34808f.css.map",
-    "main.36b5820f.js.map": "/static/js/main.36b5820f.js.map",
+    "main.90d40ba5.css.map": "/static/css/main.90d40ba5.css.map",
+    "main.f09156b7.js.map": "/static/js/main.f09156b7.js.map",
     "64.19e056e0.chunk.css.map": "/static/css/64.19e056e0.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d34808f.css",
-    "static/js/main.36b5820f.js"
+    "static/css/main.90d40ba5.css",
+    "static/js/main.f09156b7.js"
   ]
 }
