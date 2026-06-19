@@ -68,9 +68,9 @@ export default function AboutMe() {
             <p className="about-cell-placeholder">← Oops, I missed the target 🎯<br/>"If you have made the right movements, open your hand and release the string. Even if the arrow fails to hit the target, you will learn how to improve your aim next time." — Paulo Coelho, The Archer</p>
           </div>
         </div>
-      </div>
-      <div className="about-back-container">
-        <Link to="/" className="back-btn">← Home Page</Link>
+        <div className="about-back-container">
+          <Link to="/" className="back-btn">← Home Page</Link>
+        </div>
       </div>
     </div>
     </>

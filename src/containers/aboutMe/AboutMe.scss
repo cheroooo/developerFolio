@@ -234,10 +234,10 @@
 }
 
 .about-back-container {
-  position: absolute;
-  bottom: -27rem;
-  left: 50%;
-  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .about-back-container .back-btn {
@@ -441,12 +441,7 @@
   }
 
   .about-back-container {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    transform: none;
     margin-top: 2rem;
-    display: flex;
-    justify-content: center;
+    padding-bottom: 2rem;
   }
 }
