@@ -1,6 +1,7 @@
 import React, {useContext, useState} from "react";
 import {Link, useHistory} from "react-router-dom";
 import FallingPetals from "../fallingPetals/FallingPetals";
+import CardWipe from "../cardWipe/CardWipe";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -20,15 +21,19 @@ function Header() {
   const {isDark} = useContext(StyleContext);
   const history = useHistory();
   const [showPetals, setShowPetals] = useState(false);
+  const [showWipe, setShowWipe] = useState(false);
 
   function handleAboutMeClick(e) {
     e.preventDefault();
-    if (showPetals) return;
+    if (showWipe || showPetals) return;
+    setShowWipe(true);
     setShowPetals(true);
-    setTimeout(() => {
-      setShowPetals(false);
-      history.push("/about");
-    }, 3000);
+  }
+
+  function handleWipeCovered() {
+    history.push("/about");
+    setShowWipe(false);
+    setShowPetals(false);
   }
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
@@ -41,7 +46,8 @@ function Header() {
 
   return (
     <>
-    {showPetals && <FallingPetals count={180} duration={3000} startOnScreen={true} />}
+    {showPetals && <FallingPetals count={720} duration={3000} startOnScreen={true} />}
+    {showWipe && <CardWipe phase="in" onCovered={handleWipeCovered} />}
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
 <a href="/" className="logo">
@@ -75,7 +81,9 @@ function Header() {
               Education
             </a>
           </li>
-          {/* About Me — hidden while in progress */}
+          <li>
+            <a href="/about" onClick={handleAboutMeClick}>About Me</a>
+          </li>
           {viewOpenSource && (
             <li>
               <a href="/#opensource">
