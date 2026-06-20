@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/developerFolio/static/css/main.7a980079.css",
-    "main.js": "/developerFolio/static/js/main.d6b153ef.js",
+    "main.css": "/developerFolio/static/css/main.4ba1fee7.css",
+    "main.js": "/developerFolio/static/js/main.3f9fca4a.js",
     "static/css/64.19e056e0.chunk.css": "/developerFolio/static/css/64.19e056e0.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/developerFolio/static/js/64.56dc6704.chunk.js",
     "static/media/xiaolongbao.jpeg": "/developerFolio/static/media/xiaolongbao.2bddac417b1f90eb293e.jpeg",
@@ -28,13 +28,13 @@
     "index.html": "/developerFolio/index.html",
     "static/media/talksCardBack.svg": "/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "static/media/anthropicWave.svg": "/developerFolio/static/media/anthropicWave.af251491a0a670d4d5070a2aad65a36f.svg",
-    "main.7a980079.css.map": "/developerFolio/static/css/main.7a980079.css.map",
-    "main.d6b153ef.js.map": "/developerFolio/static/js/main.d6b153ef.js.map",
+    "main.4ba1fee7.css.map": "/developerFolio/static/css/main.4ba1fee7.css.map",
+    "main.3f9fca4a.js.map": "/developerFolio/static/js/main.3f9fca4a.js.map",
     "64.19e056e0.chunk.css.map": "/developerFolio/static/css/64.19e056e0.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/developerFolio/static/js/64.56dc6704.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a980079.css",
-    "static/js/main.d6b153ef.js"
+    "static/css/main.4ba1fee7.css",
+    "static/js/main.3f9fca4a.js"
   ]
 }
