@@ -21,7 +21,7 @@ export default function FallingPetals({count = 22, duration = 10000, startOnScre
     // Honor users who prefer reduced motion: no falling, no listeners.
     if (
       window.matchMedia &&
-      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      window.matchMedia("(prefers-reduced-motion: reduce)")?.matches
     ) {
       return;
     }

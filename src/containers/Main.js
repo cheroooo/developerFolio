@@ -20,7 +20,7 @@ const Main = () => {
     new URLSearchParams(window.location.search).get("coverTest") === "1";
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] = useState(() => {
     if (window.location.pathname !== "/") return false;
-    if (sessionStorage.getItem("splashShown")) return false;
+    if (sessionStorage.getItem("splashShown") && !isCoverTestMode) return false;
     return true;
   });
 

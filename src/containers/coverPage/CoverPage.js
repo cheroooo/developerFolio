@@ -50,7 +50,7 @@ export default function CoverPage() {
 
     const prefersReduced =
       window.matchMedia &&
-      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      window.matchMedia("(prefers-reduced-motion: reduce)")?.matches;
 
     effect.classList.add("cover-tagline-effect--revealed");
     return;

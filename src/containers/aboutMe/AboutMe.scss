@@ -36,6 +36,8 @@
   gap: 1rem;
   margin-top: 2rem;
   width: 100%;
+  position: relative;
+  margin-bottom: 24rem;
 }
 
 .about-cell {
@@ -53,48 +55,48 @@
 .about-food-text {
   position: absolute;
   left: 8%;
-  top: 112%;
+  top: calc(100% + 5.5rem);
   font-size: 18px;
   color: #1A2A1A;
   line-height: 1.6;
-  white-space: nowrap;
+  max-width: 35%;
   margin: 0;
 }
 
 .about-img-20251129 {
   position: absolute;
-  width: 191px;
-  height: 187px;
+  width: clamp(120px, 14vw, 191px);
+  height: clamp(117px, 13.7vw, 187px);
   object-fit: cover;
   border-radius: 50%;
   left: 47%;
-  top: 105%;
+  top: calc(100% + 5.5rem);
 }
 
 .about-img-8428 {
   position: absolute;
-  width: 191px;
-  height: 187px;
+  width: clamp(120px, 14vw, 191px);
+  height: clamp(117px, 13.7vw, 187px);
   object-fit: cover;
   border-radius: 50%;
   left: 63%;
-  top: 105%;
+  top: calc(100% + 5.5rem);
 }
 
 .about-img-xiaolongbao {
   position: absolute;
-  width: 191px;
-  height: 187px;
+  width: clamp(120px, 14vw, 191px);
+  height: clamp(117px, 13.7vw, 187px);
   object-fit: cover;
   border-radius: 50%;
   left: 79%;
-  top: 105%;
+  top: calc(100% + 5.5rem);
 }
 
 .about-img-20260212-text {
   position: absolute;
   left: 31%;
-  top: 43%;
+  top: 38%;
   font-size: 16px;
   color: #1A2A1A;
   margin: 0;
@@ -103,8 +105,8 @@
 .about-img-20260212 {
   position: absolute;
   left: 42%;
-  top: 39%;
-  width: 25%;
+  top: 34%;
+  width: 22%;
   height: auto;
   object-fit: cover;
   border-radius: 12px;
@@ -115,10 +117,10 @@
   font-size: 18px;
   color: #1A2A1A;
   line-height: 1.6;
-  max-width: 650px;
+  max-width: 440px;
   margin: 0;
   right: 5%;
-  top: 87%;
+  top: calc(100% - 6.5rem);
 }
 
 .about-cell-8 {
@@ -162,7 +164,7 @@
 }
 
 .about-cell-6 { grid-area: item6; background: transparent; box-shadow: none; overflow: visible; width: 500px; height: 110px; justify-self: end; transform: translateX(13%); }
-.about-cell-5 { grid-area: item5; background: transparent; box-shadow: none; align-self: end; transform: translateY(-120%); overflow: visible; }
+.about-cell-5 { grid-area: item5; background: transparent; box-shadow: none; align-self: end; transform: translateY(-85%); overflow: visible; }
 
 .about-cell-iframe {
   position: absolute;
@@ -189,7 +191,7 @@
   background: transparent;
   box-shadow: none;
   border-radius: 0;
-  transform: translateY(80%) translateX(-55%);
+  transform: translateY(80%) translateX(-40%);
   overflow: visible;
 }
 
@@ -203,14 +205,14 @@
 .about-cell-circle-video {
   border-radius: 50%;
   overflow: hidden;
-  width: 191px;
-  height: 187px;
+  width: clamp(120px, 14vw, 191px);
+  height: clamp(117px, 13.7vw, 187px);
   flex-shrink: 0;
 }
 
 .about-cell-img-half {
-  width: 191px;
-  height: 187px;
+  width: clamp(120px, 14vw, 191px);
+  height: clamp(117px, 13.7vw, 187px);
   object-fit: cover;
   flex-shrink: 0;
   border-radius: 50%;
