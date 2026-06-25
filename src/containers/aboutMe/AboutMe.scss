@@ -55,7 +55,7 @@
 .about-food-text {
   position: absolute;
   left: 8%;
-  top: calc(100% + 5.5rem);
+  top: 122%;
   font-size: 18px;
   color: #1A2A1A;
   line-height: 1.6;
@@ -70,7 +70,7 @@
   object-fit: cover;
   border-radius: 50%;
   left: 47%;
-  top: calc(100% + 5.5rem);
+  top: 115%;
 }
 
 .about-img-8428 {
@@ -80,7 +80,7 @@
   object-fit: cover;
   border-radius: 50%;
   left: 63%;
-  top: calc(100% + 5.5rem);
+  top: 115%;
 }
 
 .about-img-xiaolongbao {
@@ -90,7 +90,7 @@
   object-fit: cover;
   border-radius: 50%;
   left: 79%;
-  top: calc(100% + 5.5rem);
+  top: 115%;
 }
 
 .about-img-20260212-text {
@@ -120,7 +120,7 @@
   max-width: 440px;
   margin: 0;
   right: 5%;
-  top: calc(100% - 6.5rem);
+  top: 92%;
 }
 
 .about-cell-8 {
@@ -164,7 +164,7 @@
 }
 
 .about-cell-6 { grid-area: item6; background: transparent; box-shadow: none; overflow: visible; width: 500px; height: 110px; justify-self: end; transform: translateX(13%); }
-.about-cell-5 { grid-area: item5; background: transparent; box-shadow: none; align-self: end; transform: translateY(-85%); overflow: visible; }
+.about-cell-5 { grid-area: item5; background: transparent; box-shadow: none; align-self: end; transform: translateY(-122%); overflow: visible; }
 
 .about-cell-iframe {
   position: absolute;
@@ -191,7 +191,7 @@
   background: transparent;
   box-shadow: none;
   border-radius: 0;
-  transform: translateY(80%) translateX(-40%);
+  transform: translateY(93%) translateX(-55%);
   overflow: visible;
 }
 
