@@ -12,15 +12,19 @@ function fmt(s) {
 
 function VideoPlayer({src, poster}) {
   const videoRef = useRef(null);
-  const [showOverlay, setShowOverlay] = useState(true);
+  const [playing, setPlaying] = useState(false);
   const [currentTime, setCurrent] = useState(0);
   const [duration, setDuration] = useState(0);
 
-  function handleOverlayClick() {
+  function togglePlay() {
     const v = videoRef.current;
     if (!v) return;
-    v.muted = false;
-    v.play();
+    if (v.paused) {
+      v.muted = false;
+      v.play();
+    } else {
+      v.pause();
+    }
   }
 
   function handleScrub(e) {
@@ -32,22 +36,22 @@ function VideoPlayer({src, poster}) {
 
   return (
     <div className="am-video-wrap">
-      <div className="am-video-frame">
+      <div className="am-video-frame" onClick={togglePlay}>
         <video
           ref={videoRef}
           src={src}
           poster={poster}
           playsInline
           preload="metadata"
-          onPlay={() => setShowOverlay(false)}
-          onPause={() => setShowOverlay(true)}
-          onEnded={() => setShowOverlay(true)}
+          onPlay={() => setPlaying(true)}
+          onPause={() => setPlaying(false)}
+          onEnded={() => setPlaying(false)}
           onTimeUpdate={() => setCurrent(videoRef.current?.currentTime || 0)}
           onLoadedMetadata={() => setDuration(videoRef.current?.duration || 0)}
           className="am-video-el"
         />
-        {showOverlay && (
-          <div className="am-video-overlay" onClick={handleOverlayClick}>
+        {!playing && (
+          <div className="am-video-overlay">
             <div className="am-play-btn">
               <svg width="28" height="32" viewBox="0 0 28 32" fill="none">
                 <polygon points="2,1 27,16 2,31" fill="#313b2c"/>
@@ -57,6 +61,18 @@ function VideoPlayer({src, poster}) {
         )}
       </div>
       <div className="am-scrubber-row">
+        <button className="am-pp-btn" onClick={togglePlay} aria-label={playing ? "Pause" : "Play"}>
+          {playing ? (
+            <svg width="14" height="16" viewBox="0 0 14 16" fill="none">
+              <rect x="0" y="0" width="4" height="16" rx="1" fill="#313b2c"/>
+              <rect x="10" y="0" width="4" height="16" rx="1" fill="#313b2c"/>
+            </svg>
+          ) : (
+            <svg width="14" height="16" viewBox="0 0 14 16" fill="none">
+              <polygon points="0,0 14,8 0,16" fill="#313b2c"/>
+            </svg>
+          )}
+        </button>
         <span className="am-time">{fmt(currentTime)}</span>
         <input
           type="range"
