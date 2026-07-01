@@ -9,3 +9,6 @@
 *.ico binary
 *.webp binary
 *.woff binary
+*.mp4 binary
+*.mov binary
+*.webm binary
