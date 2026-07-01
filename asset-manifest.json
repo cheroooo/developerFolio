@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.74a55d49.css",
-    "main.js": "/static/js/main.feac8534.js",
+    "main.js": "/static/js/main.c162a2bf.js",
     "static/css/64.19e056e0.chunk.css": "/static/css/64.19e056e0.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
-    "static/media/archery.mp4": "/static/media/archery.34b957d4b636360acad1.mp4",
-    "static/media/climbing.mp4": "/static/media/climbing.b6dd5d3f1af8fa099743.mp4",
+    "static/media/archery.mp4": "/static/media/archery.2b7d5c567eb5e52061bd.mp4",
+    "static/media/climbing.mp4": "/static/media/climbing.64fcfdd1c37639a8934b.mp4",
     "static/media/headshot.jpg": "/static/media/headshot.4b5442be7ce36410a8cf.jpg",
     "static/media/archery-poster.png": "/static/media/archery-poster.7af89d9975e656560e82.png",
     "static/media/climbing-poster.png": "/static/media/climbing-poster.bbf3df0de7fcd98c6995.png",
@@ -37,12 +37,12 @@
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "static/media/anthropicWave.svg": "/static/media/anthropicWave.af251491a0a670d4d5070a2aad65a36f.svg",
     "main.74a55d49.css.map": "/static/css/main.74a55d49.css.map",
-    "main.feac8534.js.map": "/static/js/main.feac8534.js.map",
+    "main.c162a2bf.js.map": "/static/js/main.c162a2bf.js.map",
     "64.19e056e0.chunk.css.map": "/static/css/64.19e056e0.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74a55d49.css",
-    "static/js/main.feac8534.js"
+    "static/js/main.c162a2bf.js"
   ]
 }
