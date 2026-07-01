@@ -1,14 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.74a55d49.css",
-    "main.js": "/static/js/main.c162a2bf.js",
+    "main.js": "/static/js/main.683ce04b.js",
     "static/css/64.19e056e0.chunk.css": "/static/css/64.19e056e0.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
-    "static/media/archery.mp4": "/static/media/archery.2b7d5c567eb5e52061bd.mp4",
-    "static/media/climbing.mp4": "/static/media/climbing.64fcfdd1c37639a8934b.mp4",
     "static/media/headshot.jpg": "/static/media/headshot.4b5442be7ce36410a8cf.jpg",
-    "static/media/archery-poster.png": "/static/media/archery-poster.7af89d9975e656560e82.png",
-    "static/media/climbing-poster.png": "/static/media/climbing-poster.bbf3df0de7fcd98c6995.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/themeBackground.jpg": "/static/media/themeBackground.ac843dbe3f4d1cc770a9.jpg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -37,12 +33,12 @@
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "static/media/anthropicWave.svg": "/static/media/anthropicWave.af251491a0a670d4d5070a2aad65a36f.svg",
     "main.74a55d49.css.map": "/static/css/main.74a55d49.css.map",
-    "main.c162a2bf.js.map": "/static/js/main.c162a2bf.js.map",
+    "main.683ce04b.js.map": "/static/js/main.683ce04b.js.map",
     "64.19e056e0.chunk.css.map": "/static/css/64.19e056e0.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74a55d49.css",
-    "static/js/main.c162a2bf.js"
+    "static/js/main.683ce04b.js"
   ]
 }
