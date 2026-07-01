@@ -16,14 +16,11 @@ body {
   background-attachment: fixed;
 }
 
-/* About Me page — painting covers full page including overscroll */
+/* About Me page — warm cream background */
 html.page-about,
 body.page-about {
-  background-image: url("../assets/images/WechatIMG1520.jpg") !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-attachment: fixed !important;
-  background-color: #c8d9a8 !important;
+  background-image: none !important;
+  background-color: #f3f1e7 !important;
 }
 
 @media (max-width: 768px) {
@@ -37,25 +34,20 @@ body.page-about {
   }
 }
 
-/* About Me page — fully transparent header/footer so the painting shows through */
+/* About Me page — cream header/footer */
 [data-page="about"] .headroom-wrapper,
 [data-page="about"] .headroom,
 [data-page="about"] .headroom--pinned,
 [data-page="about"] .headroom--unfixed,
 [data-page="about"] .headroom--scrolled,
 [data-page="about"] .header {
-  background-color: transparent !important;
+  background-color: #f3f1e7 !important;
   box-shadow: none !important;
   transition: background-color 0.4s ease;
 }
 
 [data-page="about"] .footer-div {
-  background-color: transparent !important;
-  transition: background-color 0.4s ease;
-}
-
-[data-page="about"] .footer-text {
-  color: #3a5228 !important;
+  display: none !important;
 }
 
 /* Home page — cream theme */
