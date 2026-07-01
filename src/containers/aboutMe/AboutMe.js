@@ -122,8 +122,8 @@ export default function AboutMe() {
         <div className="am-inner am-feature-grid">
           <div className="am-feature-media">
             <VideoPlayer
-              src={require("../../assets/images/archery.mp4")}
-              poster={require("../../assets/images/archery-poster.png")}
+              src="/videos/archery.mp4"
+              poster="/videos/archery-poster.png"
             />
           </div>
           <div className="am-feature-text">
@@ -153,8 +153,8 @@ export default function AboutMe() {
           </div>
           <div className="am-feature-media">
             <VideoPlayer
-              src={require("../../assets/images/climbing.mp4")}
-              poster={require("../../assets/images/climbing-poster.png")}
+              src="/videos/climbing.mp4"
+              poster="/videos/climbing-poster.png"
             />
           </div>
         </div>
